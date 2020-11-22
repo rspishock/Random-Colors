@@ -25,6 +25,7 @@ class ColorsTableVC: UIViewController {
     
     func createRandomColor() -> UIColor {
         
+        // creates a random RGB color to append to the colors array
         let randomColor = UIColor(red: CGFloat.random(in: 0...1),
                                   green: CGFloat.random(in: 0...1),
                                   blue: CGFloat.random(in: 0...1),
@@ -37,6 +38,7 @@ class ColorsTableVC: UIViewController {
 
 extension ColorsTableVC: UITableViewDelegate, UITableViewDataSource {
     
+    // sets number of table rows to 50
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 50
     }
@@ -45,6 +47,7 @@ extension ColorsTableVC: UITableViewDelegate, UITableViewDataSource {
         return UITableViewCell()
     }
     
+    // links selected table row to ToColorsDetailVC view controller
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "ToColorsDetailVC", sender: nil)
     }
