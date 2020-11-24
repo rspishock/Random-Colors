@@ -14,6 +14,7 @@
 		9425E0C025687DB700F77F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9425E0BE25687DB700F77F8B /* LaunchScreen.storyboard */; };
 		9425E0CA25687E0900F77F8B /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9425E0C925687E0900F77F8B /* ColorsTableVC.swift */; };
 		9425E0CD25687F9100F77F8B /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9425E0CC25687F9100F77F8B /* ColorsDetailVC.swift */; };
+		94460C68256DC2C400C74BF0 /* UIColor+Ect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94460C67256DC2C400C74BF0 /* UIColor+Ect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9425E0C125687DB700F77F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9425E0C925687E0900F77F8B /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
 		9425E0CC25687F9100F77F8B /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
+		94460C67256DC2C400C74BF0 /* UIColor+Ect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ect.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				9425E0B525687DB600F77F8B /* SceneDelegate.swift */,
 				9425E0C925687E0900F77F8B /* ColorsTableVC.swift */,
 				9425E0CC25687F9100F77F8B /* ColorsDetailVC.swift */,
+				94460C67256DC2C400C74BF0 /* UIColor+Ect.swift */,
 				9425E0B925687DB600F77F8B /* Main.storyboard */,
 				9425E0BC25687DB700F77F8B /* Assets.xcassets */,
 				9425E0BE25687DB700F77F8B /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				9425E0CA25687E0900F77F8B /* ColorsTableVC.swift in Sources */,
 				9425E0CD25687F9100F77F8B /* ColorsDetailVC.swift in Sources */,
 				9425E0B425687DB600F77F8B /* AppDelegate.swift in Sources */,
+				94460C68256DC2C400C74BF0 /* UIColor+Ect.swift in Sources */,
 				9425E0B625687DB600F77F8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
